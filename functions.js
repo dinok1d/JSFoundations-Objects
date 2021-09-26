@@ -53,7 +53,7 @@ const numberOfVideos = (channel) => channel.videos.length
 
 //   )
 // }
-const channelHasVideo = (videoTitle, channel) => channel.videos.some((Element) =>  element.title === videoTitle)
+const channelHasVideo = (videoTitle, channel) => channel.videos.some((element) =>  element.title === videoTitle)
 
 
 // console.log(channelHasVideo("The Universal S", channels[0]));
