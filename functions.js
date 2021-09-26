@@ -49,11 +49,11 @@ const numberOfVideos = (channel) => channel.videos.length
  * BONUS: use iteration method `.some()`
  ****************************************************************/
 // function channelHasVideo(videoTitle, channel) {
-//   return channel.videos.some((Element) =>  Element.title === videoTitle
+//   return channel.videos.some((Element) =>  element.title === videoTitle
 
 //   )
 // }
-const channelHasVideo = (videoTitle, channel) => channel.videos.some((Element) =>  Element.title === videoTitle)
+const channelHasVideo = (videoTitle, channel) => channel.videos.some((Element) =>  element.title === videoTitle)
 
 
 // console.log(channelHasVideo("The Universal S", channels[0]));
